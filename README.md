@@ -1,5 +1,9 @@
 # llmfit
 
+> **8b-is fork.** Forked from [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)
+> (`781e76a`, v1.1.17, MIT). See [UPSTREAM.md](UPSTREAM.md) for provenance and
+> how to sync. Upstream stays the upstream of record.
+
 <p align="center">
   <img src="assets/icon.svg" alt="llmfit icon" width="128" height="128">
 </p>

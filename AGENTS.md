@@ -4,6 +4,13 @@ Instructions for AI agents contributing to this codebase.
 
 ---
 
+> **This is the `8b-is` fork of `AlexsJones/llmfit`** (fork point `781e76a`,
+> v1.1.17, MIT). Upstream is the upstream of record — keep divergence small and
+> land it as reviews that can flow back. `upstream` is a git remote; sync with
+> `git fetch upstream && git merge upstream/main`. See `UPSTREAM.md`.
+
+---
+
 ## Project overview
 
 `llmfit` is a Rust CLI/TUI tool that matches LLM models against local system hardware (RAM, CPU, GPU). It detects system specs, loads a model database from embedded JSON, scores each model's fit, and presents results in an interactive terminal UI or classic table output.
