@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // Helper to parse comma-separated allowed hosts or default to 'all' / true
 const parseAllowedHosts = (envVal) => {
-  if (!envVal) return false; // Restrictive default to prevent DNS rebinding
+  if (!envVal) return []; // Restrictive default to prevent DNS rebinding
   if (envVal === 'all' || envVal === 'true') return true;
   return envVal.split(',').map((h) => h.trim());
 };
